@@ -14,7 +14,7 @@ export default function AddUser(props) {
     if (enteredUsername.trim().length === 0 || enteredAge.trim().length === 0) {
       setError({
         title: "Invalid Name",
-        message: "Please enter a valid name & age (>0) non-empty values).",
+        message: "Please enter a valid name & age (>0) non-empty values.",
       });
       return;
     }
